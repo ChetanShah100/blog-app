@@ -1,0 +1,29 @@
+.Blog-new{
+    width: 30%;
+    margin: auto;
+    height: 500px;
+    border: 2px solid black;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(229, 222, 214);
+    box-shadow: 2px 2px 10px;
+}
+.Blog-new h2{
+    text-align: center;
+    color: blueviolet;
+}
+.Blog-new input{
+    width: 50%;
+    height: 30px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+#disc{
+    height: 50px;
+}
+.Blog-new button{
+   background-color: tomato;
+   width: 15%;
+   height: 30px;
+   border-radius: 10px;
+}

@@ -1,0 +1,26 @@
+.comment{
+    border: 2px solid black;
+    width: 30%;
+    margin: auto;
+    height: 400px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+    background-color: rgb(229, 222, 214);
+}
+.comment h2{
+    text-align: center;
+}
+.comment input{
+    height: 50px;
+    margin-left: 50px;
+    width: 80%;
+    margin-top: 30px;
+}
+.comment button{
+   margin-left: 170px;
+   margin-top: 50px;
+   width: 20%;
+   background-color: tomato;
+   border-radius: 5px;
+}

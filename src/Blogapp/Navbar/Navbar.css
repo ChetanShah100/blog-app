@@ -1,0 +1,33 @@
+.Navbar{
+    border: 2px solid black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(224, 191, 147);
+    box-shadow: 4px 4px 20px;
+    margin-top: 8px;
+    border-radius: 10px;
+    align-items: center;
+}
+.link{
+    display: flex;
+    align-items: center;
+    width: 50%;
+  gap: 1rem;
+ justify-content: flex-end;
+ padding-right: 1rem;
+}
+/* @media (max-width:808px) and (max-width:900)  */
+@media (max-width:808px) {
+    .blog {
+        display: none;
+    }
+    .Welcome{
+        display: none;
+    }
+}
+/* .link button{
+    height: 25px;
+    margin-top: 20px;
+    margin-right: 10px;
+} */

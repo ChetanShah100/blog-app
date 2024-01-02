@@ -1,0 +1,70 @@
+.Blog{
+    border: 2px solid black;
+    margin: auto;
+    width: 100vw;
+   /* height: 1000px; */
+   margin-top: 1px;
+   border-radius: 10px;
+   background-color: rgb(229, 222, 214);
+  
+   
+ }
+
+ .Blog-1{
+    /* border: 2px solid black; */
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+ }
+ .blog-3{
+    /* border: 2px solid black; */
+    padding: 20px 0px;
+    display: flex;
+    gap:1rem; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+    
+ }
+ .blog-3a{
+    /* border: 2px solid black; */
+    width : 400px;
+    height: 350px;
+    box-shadow: 2px 2px 10px;
+    border-radius: 10px;
+ 
+ }
+ .blog-3aImg{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 98%;
+    background-image: url(https://ts2.space/wp-content/uploads/2019/02/small-blog.jpg); 
+    background-size: cover;
+    margin-left: 3px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px;
+ }
+
+ .Blog-1 span{
+   font-weight: bold;
+   margin-top: 20px;
+ }
+ .Blog-1 button{
+   background-color: tomato;
+   width: 10%;
+   margin-top: 20px;
+   height: 40px;
+   border-radius: 10px;
+ }
+ .blog-3 Link{
+   text-decoration: none;
+  
+ }
+
+ .des{
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   width: 80%;
+ }
